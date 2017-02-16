@@ -135,12 +135,6 @@ public class PlayerController : MonoBehaviour {
         //If fireMario turn into superMario.
         if (little)
         {
-            /* What happens when little Mario is hit
-             * by an enemy? Call a function from UIManager. 
-             * 
-             * YOUR CODE HERE.
-             * 
-             */ 
 			uiManager.TakeLife ();
             this.gameObject.SetActive(false);
         }
