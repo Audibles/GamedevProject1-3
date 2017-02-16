@@ -141,6 +141,7 @@ public class PlayerController : MonoBehaviour {
              * YOUR CODE HERE.
              * 
              */ 
+			uiManager.TakeLife ();
             this.gameObject.SetActive(false);
         }
         else if (super) {

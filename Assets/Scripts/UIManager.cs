@@ -139,21 +139,15 @@ public class UIManager : MonoBehaviour {
     public void TakeLife() {
         playerLives -= 1;
         SetDigits(LoadingLivesDigit, playerLives);
+		Debug.Log ("ouch");
         if (playerLives == 0)
         {
-            /*
-             * 
-             * YOUR CODE HERE
-             * 
-             */ 
+			SceneManager.LoadScene("Main Scene");
+			playerLives = 3;
         }
         else
         {
-            /*
-             * 
-             * YOUR CODE HERE
-             * 
-             */ 
+			LoadScene ();
         }
     }
 

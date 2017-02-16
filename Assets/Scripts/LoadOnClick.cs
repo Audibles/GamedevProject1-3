@@ -31,11 +31,8 @@ public class LoadOnClick : MonoBehaviour {
      'Title_Screen' GameObject. */
     public void LoadScene()
     {
-        /*
-         * 
-         * YOUR CODE HERE
-         * 
-         */ 
+		SceneManager.LoadScene ("Main Scene");
+		Title_Screen.SetActive (false);
     }
 
 }
